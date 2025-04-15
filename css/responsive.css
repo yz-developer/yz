@@ -1,0 +1,65 @@
+@media screen and (max-width: 575.98px) {  
+
+  .banner-welcome {
+    font-size: 2rem;
+  }
+
+  .banner-present {
+    font-size: 4rem;
+  }
+
+  .show-text {
+    height: 1.5rem;
+  }
+
+  .banner-present .show-text {
+    font-size: 2.2rem;
+  }
+
+  .banner-location {
+    font-size: 3rem;
+  }
+
+  .banner-address {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .banner-address__item {
+    border: none;
+    padding: 0 2rem;
+    font-family: Poppins-Light;
+    color: #b6b4b4;
+    border-left: 1px solid #ffff;
+  }
+
+  .banner-address__item:last-child {
+    border-left: 1px solid #ffff;
+  }
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
