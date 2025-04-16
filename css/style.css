@@ -44,7 +44,8 @@ body {
 .cover {
   display: none;
   position: absolute;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
   width: 100vw;
   height: 100vh;
   top: 0;
