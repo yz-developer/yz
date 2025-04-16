@@ -170,9 +170,16 @@ body {
 }
 
 /* 
-    Main
+   --> Main
 */
+
 /* Banner */
+.banner-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .left-banner {
   background: url(../img/yz/YZ-1.png) no-repeat center;
@@ -279,9 +286,7 @@ body {
 }
 
 /* Banner photo */
-/* .right-banner {
- 
-} */
+
 
 /* 
     --> Left side follow links
@@ -327,6 +332,48 @@ body {
   align-items: flex-start;
   gap: 1rem;
 }
+
+/* 
+  --> Right banner
+*/
+
+.introduction-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  color: white;
+  padding: 2rem 2rem;
+}
+
+.introduction-wrapper img{
+  width: 20rem;
+  border: 1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 200%;
+  box-shadow: 0px 0px 50px rgba(2, 56, 25, 0.822) ;
+}
+
+.introduction{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.call-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.call-me p{
+  text-transform: capitalize;
+  font-family: Poppins-black;
+  font-size: 3rem;
+}
+
+
 
 /* 
     --> Animations
