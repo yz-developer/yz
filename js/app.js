@@ -7,6 +7,6 @@ const cover = document.querySelector(".cover");
 
 menuIcon.addEventListener("click", () => {
   middleLine.classList.toggle("active");  
+  cover.classList.toggle("active");  
   nav.classList.toggle("nav-active");
-  cover.classList.toggle("active");
 });

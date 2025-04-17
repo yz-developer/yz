@@ -20,6 +20,10 @@
     font-size: 3rem;
   }
 
+  .introduction{
+    font-size: 1.3rem;
+  }
+
   .banner-address {
     flex-direction: column;
     gap: 2rem;
@@ -67,34 +71,6 @@
 .bottom-line {
   background-color: black;
 }
-
-
-
-
-/* 
-.header-menu{
-  display: none;
-}
-
-.header-menu-desktop {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  text-transform: capitalize;
-
-}
-
-.header-menu__link {
-  color: black;
-  font-weight: 600;
-}
-
-.header-menu__link:hover {
-  font-weight: normal;
-  letter-spacing: 0.2rem;
-  transition: all 0.5s ease-in;
-}  */
-
 
 .follow p {
   font-size: 1.5rem;
@@ -152,7 +128,7 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+ 
  }
 
  /* XX-Large devices (larger desktops, 1400px and up) */
