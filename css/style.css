@@ -8,6 +8,27 @@
 
 /* Component */
 
+
+/* Helper */
+.bg-title{
+  font-family: Poppins-black;
+  font-weight: 900;
+  font-size: 9rem;
+  text-transform: capitalize;
+  color: black;
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: rgb(83, 82, 82);
+}
+
+.fg-title{
+  font-family: Poppins-black;
+  font-weight: 500;
+  font-size: 4.5rem;
+  text-transform: capitalize;
+  color: white;
+  margin-top: -10.5rem;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 10px */
@@ -361,6 +382,19 @@ body {
 .messengers :nth-child(2){
   margin-left: .5rem;
 }
+
+/* 
+    --->Skills
+*/
+
+.skills{
+  padding-top: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+
 
 
 /* 
