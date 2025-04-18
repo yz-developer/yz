@@ -47,3 +47,9 @@
   font-family: Poppins-Black;
   src: url(../fonts/poppins/Poppins-Black.ttf), format(TrueType);
 }
+
+/* Nasalization */
+@font-face {
+  font-family: nasalization;
+  src: url(../fonts/nasalization/Nasalization\ Rg.otf), format(TrueType);
+}

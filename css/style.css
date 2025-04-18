@@ -8,19 +8,18 @@
 
 /* Component */
 
-
 /* Helper */
-.bg-title{
+.bg-title {
   font-family: Poppins-black;
   font-weight: 900;
   font-size: 9rem;
   text-transform: capitalize;
   color: black;
-  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: rgb(83, 82, 82);
 }
 
-.fg-title{
+.fg-title {
   font-family: Poppins-black;
   font-weight: 500;
   font-size: 4.5rem;
@@ -176,11 +175,12 @@ body {
 */
 
 /* Banner */
-.banner-wrapper{
+.banner-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: appear linear;
 }
 
 .left-banner {
@@ -289,7 +289,6 @@ body {
 
 /* Banner photo */
 
-
 /* 
     --> Left side follow links
 */
@@ -298,7 +297,7 @@ body {
   color: white;
   flex-direction: column;
   justify-content: center;
-  align-items:normal;
+  align-items: normal;
   gap: 1rem;
   position: fixed;
   top: 0;
@@ -331,14 +330,14 @@ body {
   margin-left: 2.6rem;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 /* 
   --> Right banner
 */
 
-.introduction-wrapper{
+.introduction-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -348,51 +347,164 @@ body {
   padding: 2rem 2rem;
 }
 
-.introduction-wrapper img{
+.introduction-wrapper img {
   width: 22rem;
   border: 1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 200%;
-  box-shadow: 0px 0px 50px rgba(2, 56, 25, 0.822) ;
+  box-shadow: 0px 0px 50px rgba(2, 56, 25, 0.822);
 }
 
-.introduction{
+.introduction {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-transform: capitalize;
 }
 
-.call-me{
+.call-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.call-me p{
+.call-me p {
   margin-top: 2rem;
   text-transform: capitalize;
   font-family: Poppins-black;
   font-size: 3rem;
 }
 
-.messengers :nth-child(1){
-  margin-right: .5rem;
+.messengers :nth-child(1) {
+  margin-right: 0.5rem;
 }
 
-.messengers :nth-child(2){
-  margin-left: .5rem;
+.messengers :nth-child(2) {
+  margin-left: 0.5rem;
 }
 
 /* 
     --->Skills
 */
 
-.skills{
+.skills {
   padding-top: 7rem;
   padding-left: 2rem;
   padding-right: 2rem;
   color: white;
 }
+
+.skill-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: appear linear;
+  
+}
+
+.skills-content__left{
+  padding: 5rem 2rem 2rem ;
+  color: white;
+
+}
+
+.skills-content__left-skill{
+  padding-top: 2rem;
+}
+
+.skills-content__left-skill h2{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: .1rem;
+}
+
+.progress-bar{
+  background-color: white;
+  width: 80%;
+  height: 1rem;
+  margin-top: .5rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.html-progress-bar{
+  background-color: gray;
+  width: 0;
+  height: 1rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  animation: html-skill-show 2s linear forwards;
+}
+
+.css-progress-bar{
+  background-color: gray;
+  width: 0;
+  height: 1rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  animation: css-skill-show 2s linear forwards;
+}
+
+.js-progress-bar{
+  background-color: gray;
+  width: 0;
+  height: 1rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  animation: js-skill-show 2s linear forwards;
+}
+
+.bootstrap-progress-bar{
+  background-color: gray;
+  width: 0;
+  height: 1rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  animation: boot-skill-show 2s linear forwards;
+}
+
+
+
+.skill-percent{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  margin-right: -15px;
+  border: 1px solid gray;
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+}
+
+/* skill right */
+.skills-content__right{
+}
+
+/* 
+    --> Footer
+*/
+.copy{
+  width: 100%;
+  height: 2rem;
+  padding: 12rem 0 4rem;
+  text-align: left;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.copy span{
+  font-family: nasalization;
+}
+
+
+
+
 
 
 
@@ -438,4 +550,33 @@ body {
     margin-top: 0px;
     transform: rotate(15deg);
   }
+}
+
+/* skills animation */
+@keyframes html-skill-show {
+  100%{
+    width: 95%;
+  }
+  
+}
+
+@keyframes css-skill-show {
+  100%{
+    width: 80%;
+  }
+  
+}
+
+@keyframes js-skill-show {
+  100%{
+    width: 78%;
+  }
+  
+}
+
+@keyframes boot-skill-show {
+  100%{
+    width: 86%;
+  }
+  
 }

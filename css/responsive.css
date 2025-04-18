@@ -1,5 +1,4 @@
-@media screen and (max-width: 575.98px) {  
-
+@media screen and (max-width: 575.98px) {
   .banner-welcome {
     font-size: 2rem;
   }
@@ -20,7 +19,7 @@
     font-size: 3rem;
   }
 
-  .introduction{
+  .introduction {
     font-size: 1.3rem;
   }
 
@@ -42,50 +41,47 @@
   }
 }
 
-
- /* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .links-wrapper{
+  .links-wrapper {
     display: flex;
   }
 
-  .banner-address__item{
-  font-size: 1.5rem;
+  .banner-address__item {
+    font-size: 1.5rem;
   }
+}
 
- }
-
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
- }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body{
-    background: linear-gradient(to Right, black 50%,  white 50%);
+  body {
+    background: linear-gradient(to Right, black 50%, white 50%);
   }
 
   .top-line,
-.middle-line,
-.bottom-line {
-  background-color: black;
-}
+  .middle-line,
+  .bottom-line {
+    background-color: black;
+  }
 
-.follow p {
-  font-size: 1.5rem;
-}
+  .follow p {
+    font-size: 1.5rem;
+  }
 
-.space-line {
-  margin-left: 3.8rem;
-}
+  .space-line {
+    margin-left: 3.8rem;
+  }
 
-.socials {
-  margin-left: 2.6rem;
-  gap: 1rem;
-}
+  .socials {
+    margin-left: 2.6rem;
+    gap: 1rem;
+  }
 
-  .banner-wrapper{
+  .banner-wrapper {
     flex-direction: row;
   }
 
@@ -97,41 +93,46 @@
     font-size: 3rem;
   }
 
-  .banner-address__item{
+  .banner-address__item {
     font-size: 1.2rem;
-    }
+  }
 
-  
+  .introduction-wrapper {
+    color: black;
+  }
 
-.introduction-wrapper{
-  color: black;
+  .introduction-wrapper img {
+    box-shadow: 0px 0px 50px rgba(104, 104, 104, 0.822);
+  }
+
+  .introduction {
+    font-size: 1.5rem;
+  }
+
+  .messengers :nth-child(1) {
+    stroke: black;
+  }
+
+  .messengers :nth-child(2) {
+    stroke: black;
+  }
+
+  /* skills */
+  .skill-wrapper {
+    flex-direction: row;
+  }
+
+  /* footer */
+  .copy p {
+    color: black;
+    text-align: right;
+  }
 }
-
-.introduction-wrapper img{
-  box-shadow: 0px 0px 50px rgba(104, 104, 104, 0.822) ;
-}
-
-.introduction{
-  font-size: 1.5rem;
-}
-
-.messengers :nth-child(1){
-  stroke: black;
-}
-
-.messengers :nth-child(2){
-  stroke: black;
-}
-
-
- }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
- 
- }
+@media (min-width: 1200px) {
+}
 
- /* XX-Large devices (larger desktops, 1400px and up) */
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-
 }
