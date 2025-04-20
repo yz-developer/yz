@@ -141,34 +141,7 @@ body {
   display: flex;
 }
 
-/* .header-menu {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  margin-top: 7rem;
-  padding-top: 10rem;
-  border-top: 1px solid #222222;
-  text-align: center;
-  background-color: black
-}
-
-.header-menu__item {
-  margin-top: 2rem;
-}
-
-.header-menu__link {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: rgb(219, 219, 219);
-  text-shadow: 2px 2px 22px rgba(6, 134, 60, 0.822);
-  text-transform: capitalize;
-} */
-
-.header-menu{
+.header-menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -176,17 +149,17 @@ body {
   gap: 2rem;
 }
 
-.header-menu__link{
+.header-menu__link {
   font-size: 1.5rem;
   text-transform: capitalize;
   color: black;
   font-weight: 600;
   cursor: pointer;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
-.header-menu__link:hover{
-  letter-spacing: .2rem;
+.header-menu__link:hover {
+  letter-spacing: 0.2rem;
 }
 .link-color {
   color: white;
@@ -416,42 +389,40 @@ body {
   color: white;
 }
 
-.skill-wrapper{
+.skill-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: appear linear;
-  
 }
 
-.skills-content__left{
-  padding: 5rem 2rem 2rem ;
+.skills-content__left {
+  padding: 5rem 2rem 2rem;
   color: white;
-
 }
 
-.skills-content__left-skill{
+.skills-content__left-skill {
   padding-top: 2rem;
 }
 
-.skills-content__left-skill h2{
+.skills-content__left-skill h2 {
   font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 500;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
-.progress-bar{
+.progress-bar {
   background-color: white;
   width: 80%;
   height: 1rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   border-top-right-radius: 5rem;
   border-bottom-right-radius: 5rem;
 }
 
-.html-progress-bar{
+.html-progress-bar {
   background-color: gray;
   width: 0;
   height: 1rem;
@@ -460,7 +431,7 @@ body {
   animation: html-skill-show 2s linear forwards;
 }
 
-.css-progress-bar{
+.css-progress-bar {
   background-color: gray;
   width: 0;
   height: 1rem;
@@ -469,7 +440,7 @@ body {
   animation: css-skill-show 2s linear forwards;
 }
 
-.js-progress-bar{
+.js-progress-bar {
   background-color: gray;
   width: 0;
   height: 1rem;
@@ -478,7 +449,7 @@ body {
   animation: js-skill-show 2s linear forwards;
 }
 
-.bootstrap-progress-bar{
+.bootstrap-progress-bar {
   background-color: gray;
   width: 0;
   height: 1rem;
@@ -487,9 +458,7 @@ body {
   animation: boot-skill-show 2s linear forwards;
 }
 
-
-
-.skill-percent{
+.skill-percent {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -506,29 +475,29 @@ body {
 }
 
 /* skill right */
-.skills-right__title{
+.skills-right__title {
   display: none;
 }
 
-.skill-content__right{
+.skill-content__right {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 2rem;
   gap: 7rem;
-  margin-top: 5rem;  
+  margin-top: 5rem;
   color: white;
   text-align: center;
 }
 
-.skill-item{
+.skill-item {
   width: 14rem;
   height: 14rem;
   position: relative;
 }
 
-.outer{
+.outer {
   width: 14rem;
   height: 14rem;
   border: 1px solid white;
@@ -536,7 +505,7 @@ body {
   padding: 1.9rem;
 }
 
-.inner{
+.inner {
   width: 10rem;
   height: 10rem;
   border: 1px solid rgb(211, 209, 209);
@@ -546,11 +515,11 @@ body {
   align-items: center;
 }
 
-#number{
+#number {
   color: white;
 }
 
-#nodejs-percent{
+#nodejs-percent {
   width: 14rem;
   height: 14rem;
   stroke-width: 20px;
@@ -564,7 +533,7 @@ body {
   animation: node-skill-show 2s ease-in-out forwards;
 }
 
-#express-percent{
+#express-percent {
   width: 14rem;
   height: 14rem;
   stroke-width: 20px;
@@ -578,7 +547,7 @@ body {
   animation: express-skill-show 2s ease-in-out forwards;
 }
 
-#nextjs-percent{
+#nextjs-percent {
   width: 14rem;
   height: 14rem;
   stroke-width: 20px;
@@ -592,7 +561,7 @@ body {
   animation: nextjs-skill-show 2s ease-in-out forwards;
 }
 
-#mongodb-percent{
+#mongodb-percent {
   width: 14rem;
   height: 14rem;
   stroke-width: 20px;
@@ -606,7 +575,7 @@ body {
   animation: mongodb-skill-show 2s ease-in-out forwards;
 }
 
-.skill-item__name{
+.skill-item__name {
   margin-top: 1rem;
   text-transform: capitalize;
   font-size: 1.5rem;
@@ -616,18 +585,14 @@ body {
 /* 
     --> Portfolio
 */
-.portfolio{
+.portfolio {
   margin-top: 10rem;
 }
-
-
-
-
 
 /* 
     --> Footer
 */
-.copy{
+.copy {
   width: 100%;
   height: 2rem;
   padding: 12rem 0 4rem;
@@ -637,6 +602,6 @@ body {
   font-size: 1.2rem;
 }
 
-.copy span{
+.copy span {
   font-family: nasalization;
 }

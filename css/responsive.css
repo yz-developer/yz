@@ -1,20 +1,20 @@
 @media screen and (max-width: 575.98px) {
-  .nav{
+  .nav {
     position: relative;
   }
-  .cover{
-  background-color: black;
-  z-index: 1;
+  .cover {
+    background-color: black;
+    z-index: 1;
   }
-  
-  .header-menu{
+
+  .header-menu {
     position: absolute;
     flex-direction: column;
     margin-top: 20rem;
     margin-left: -7rem;
-    }
+  }
 
-  .header-menu__link{
+  .header-menu__link {
     color: white;
     font-size: 2rem;
   }
@@ -63,7 +63,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .header-menu__link{
+  .header-menu__link {
     color: white;
   }
 
@@ -78,13 +78,13 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .skill-content__right{
+  .skill-content__right {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     gap: 3rem;
-    margin-top: 5rem;  
+    margin-top: 5rem;
     color: white;
     text-align: center;
   }
@@ -102,11 +102,11 @@
     background-color: black;
   }
 
-  .header-menu__link{
+  .header-menu__link {
     color: black;
   }
-  
-  .link-color{
+
+  .link-color {
     color: white;
   }
 
@@ -164,7 +164,7 @@
     flex-direction: row;
   }
 
-  .skills-right__title{
+  .skills-right__title {
     display: block;
     margin-top: -6rem;
     text-transform: capitalize;
@@ -173,27 +173,27 @@
     text-align: center;
   }
 
-  .skill-content__right{
+  .skill-content__right {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     gap: 7rem;
-    margin-top: 5rem;  
+    margin-top: 5rem;
     color: black;
     text-align: center;
   }
 
-  .outer{
+  .outer {
     border: 1px solid rgb(121, 121, 121);
   }
-  
-  .inner{
+
+  .inner {
     border: 1px solid rgb(141, 141, 141);
   }
 
-  #number{
+  #number {
     color: rgb(58, 58, 58);
   }
 

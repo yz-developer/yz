@@ -22,7 +22,6 @@ let expressPercent = document.getElementById("express-number");
 let nextjsPercent = document.getElementById("nextjs-number");
 let mongoPercent = document.getElementById("mongo-number");
 
-
 // show menu
 menuIcon.addEventListener("click", () => {
   middleLine.classList.toggle("active");
@@ -68,45 +67,41 @@ setInterval(() => {
 }, 20);
 
 //professional skills
-setInterval(() =>{
+setInterval(() => {
   if (nodejsCounter === 65) {
     clearInterval();
   } else {
     nodejsCounter += 1;
     nodejsPercent.innerText = `${nodejsCounter}%`;
   }
-
-},1000/60);
+}, 1000 / 60);
 
 //express
-setInterval(() =>{
+setInterval(() => {
   if (expressCounter === 85) {
     clearInterval();
   } else {
     expressCounter += 1;
     expressPercent.innerText = `${expressCounter}%`;
   }
-
-},1000/60);
+}, 1000 / 60);
 
 //nextjs
-setInterval(() =>{
+setInterval(() => {
   if (nextjsCounter === 72) {
     clearInterval();
   } else {
     nextjsCounter += 1;
     nextjsPercent.innerText = `${nextjsCounter}%`;
   }
-
-},1000/60);
+}, 1000 / 60);
 
 //mongodb
-setInterval(() =>{
+setInterval(() => {
   if (mongoCounter === 80) {
     clearInterval();
   } else {
     mongoCounter += 1;
     mongoPercent.innerText = `${mongoCounter}%`;
   }
-
-},1000/60);
+}, 1000 / 60);

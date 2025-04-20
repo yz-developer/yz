@@ -43,51 +43,47 @@
 
 /* skills animation */
 @keyframes html-skill-show {
-  100%{
+  100% {
     width: 95%;
   }
-  
 }
 
 @keyframes css-skill-show {
-  100%{
+  100% {
     width: 80%;
   }
-  
 }
 
 @keyframes js-skill-show {
-  100%{
+  100% {
     width: 78%;
   }
-  
 }
 
 @keyframes boot-skill-show {
-  100%{
+  100% {
     width: 86%;
   }
-  
 }
 
 /* professional skill */
 @keyframes node-skill-show {
-  100%{
-    stroke-dashoffset: 148.4px ;
+  100% {
+    stroke-dashoffset: 148.4px;
   }
 }
 @keyframes express-skill-show {
-  100%{
-    stroke-dashoffset: 63.6px ;
+  100% {
+    stroke-dashoffset: 63.6px;
   }
 }
 @keyframes nextjs-skill-show {
-  100%{
-    stroke-dashoffset: 118.72px ;
+  100% {
+    stroke-dashoffset: 118.72px;
   }
 }
 @keyframes mongodb-skill-show {
-  100%{
-    stroke-dashoffset: 84.8px ;
+  100% {
+    stroke-dashoffset: 84.8px;
   }
 }
