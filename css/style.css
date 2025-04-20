@@ -175,7 +175,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: appear linear;
+  animation: appear 1s linear;
 }
 
 .left-banner {
@@ -342,6 +342,8 @@ body {
   max-width: 100%;
   color: white;
   padding: 2rem 2rem;
+  animation: appear 1s linear;
+
 }
 
 .introduction-wrapper img {
@@ -387,6 +389,7 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   color: white;
+
 }
 
 .skill-wrapper {
@@ -395,6 +398,8 @@ body {
   justify-content: center;
   align-items: center;
   animation: appear linear;
+  animation: appear 1s linear;
+
 }
 
 .skills-content__left {
