@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./bootstrap-grid.min.css);
 @import url(./fonts.css);
+@import url(./animation.css);
 
 :root {
   --page-main-font: Poppins-Regular;
@@ -12,7 +13,7 @@
 .bg-title {
   font-family: Poppins-black;
   font-weight: 900;
-  font-size: 9rem;
+  font-size: 8rem;
   text-transform: capitalize;
   color: black;
   -webkit-text-stroke-width: 0.1rem;
@@ -25,7 +26,7 @@
   font-size: 4.5rem;
   text-transform: capitalize;
   color: white;
-  margin-top: -10.5rem;
+  margin-top: -9.7rem;
 }
 
 html {
@@ -302,6 +303,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  margin-left: -1.2rem;
+  overflow: hidden;
   display: none;
 }
 
@@ -482,8 +485,123 @@ body {
 }
 
 /* skill right */
-.skills-content__right{
+.skills-right__title{
+  display: none;
 }
+
+.skill-content__right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 7rem;
+  margin-top: 5rem;  
+  color: white;
+  text-align: center;
+}
+
+.skill-item{
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+}
+
+.outer{
+  width: 14rem;
+  height: 14rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 1.9rem;
+}
+
+.inner{
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#number{
+  color: white;
+}
+
+#nodejs-percent{
+  width: 14rem;
+  height: 14rem;
+  stroke-width: 20px;
+  stroke: gray;
+  fill: none;
+  stroke-dasharray: 424px;
+  stroke-dashoffset: 424px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: node-skill-show 2s ease-in-out forwards;
+}
+
+#express-percent{
+  width: 14rem;
+  height: 14rem;
+  stroke-width: 20px;
+  stroke: gray;
+  fill: none;
+  stroke-dasharray: 424px;
+  stroke-dashoffset: 424px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: express-skill-show 2s ease-in-out forwards;
+}
+
+#nextjs-percent{
+  width: 14rem;
+  height: 14rem;
+  stroke-width: 20px;
+  stroke: gray;
+  fill: none;
+  stroke-dasharray: 424px;
+  stroke-dashoffset: 424px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: nextjs-skill-show 2s ease-in-out forwards;
+}
+
+#mongodb-percent{
+  width: 14rem;
+  height: 14rem;
+  stroke-width: 20px;
+  stroke: gray;
+  fill: none;
+  stroke-dasharray: 424px;
+  stroke-dashoffset: 424px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: mongodb-skill-show 2s ease-in-out forwards;
+}
+
+.skill-item__name{
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* 
+    --> Portfolio
+*/
+.portfolio{
+  margin-top: 10rem;
+}
+
+
+
+
 
 /* 
     --> Footer
@@ -500,83 +618,4 @@ body {
 
 .copy span{
   font-family: nasalization;
-}
-
-
-
-
-
-
-
-
-/* 
-    --> Animations
-*/
-@keyframes roll {
-  0% {
-    font-size: 0px;
-    opacity: 0;
-    margin-left: -30px;
-    margin-top: 0px;
-    transform: rotate(-25deg);
-  }
-  3% {
-    opacity: 1;
-    transform: rotate(0deg);
-  }
-  5% {
-    font-size: inherit;
-    opacity: 1;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  20% {
-    font-size: inherit;
-    opacity: 1;
-    margin-left: 0px;
-    margin-top: 0px;
-    transform: rotate(0deg);
-  }
-  27% {
-    font-size: 0px;
-    opacity: 0.5;
-    margin-left: 20px;
-    margin-top: 100px;
-  }
-  100% {
-    font-size: 0px;
-    opacity: 0;
-    margin-left: -30px;
-    margin-top: 0px;
-    transform: rotate(15deg);
-  }
-}
-
-/* skills animation */
-@keyframes html-skill-show {
-  100%{
-    width: 95%;
-  }
-  
-}
-
-@keyframes css-skill-show {
-  100%{
-    width: 80%;
-  }
-  
-}
-
-@keyframes js-skill-show {
-  100%{
-    width: 78%;
-  }
-  
-}
-
-@keyframes boot-skill-show {
-  100%{
-    width: 86%;
-  }
-  
 }

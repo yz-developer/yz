@@ -2,6 +2,10 @@ htmlCounter = 0;
 cssCounter = 0;
 jsCounter = 0;
 bootCounter = 0;
+nodejsCounter = 0;
+expressCounter = 0;
+nextjsCounter = 0;
+mongoCounter = 0;
 
 const menuIcon = document.querySelector(".header-menu__icon");
 const middleLine = document.querySelector(".middle-line");
@@ -13,6 +17,11 @@ let htmlSkillPercent = document.getElementById("html-skill-percent");
 let cssSkillPercent = document.getElementById("css-skill-percent");
 let jsSkillPercent = document.getElementById("js-skill-percent");
 let bootstrapSkillPercent = document.getElementById("bootstrap-skill-percent");
+let nodejsPercent = document.getElementById("node-number");
+let expressPercent = document.getElementById("express-number");
+let nextjsPercent = document.getElementById("nextjs-number");
+let mongoPercent = document.getElementById("mongo-number");
+
 
 // show menu
 menuIcon.addEventListener("click", () => {
@@ -57,3 +66,47 @@ setInterval(() => {
     bootstrapSkillPercent.innerText = `${bootCounter}%`;
   }
 }, 20);
+
+//professional skills
+setInterval(() =>{
+  if (nodejsCounter === 65) {
+    clearInterval();
+  } else {
+    nodejsCounter += 1;
+    nodejsPercent.innerText = `${nodejsCounter}%`;
+  }
+
+},1000/60);
+
+//express
+setInterval(() =>{
+  if (expressCounter === 85) {
+    clearInterval();
+  } else {
+    expressCounter += 1;
+    expressPercent.innerText = `${expressCounter}%`;
+  }
+
+},1000/60);
+
+//nextjs
+setInterval(() =>{
+  if (nextjsCounter === 72) {
+    clearInterval();
+  } else {
+    nextjsCounter += 1;
+    nextjsPercent.innerText = `${nextjsCounter}%`;
+  }
+
+},1000/60);
+
+//mongodb
+setInterval(() =>{
+  if (mongoCounter === 80) {
+    clearInterval();
+  } else {
+    mongoCounter += 1;
+    mongoPercent.innerText = `${mongoCounter}%`;
+  }
+
+},1000/60);

@@ -54,6 +54,16 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .skill-content__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 5rem;  
+    color: white;
+    text-align: center;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -120,6 +130,39 @@
   /* skills */
   .skill-wrapper {
     flex-direction: row;
+  }
+
+  .skills-right__title{
+    display: block;
+    margin-top: -6rem;
+    text-transform: capitalize;
+    font-family: Poppins-black;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .skill-content__right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 7rem;
+    margin-top: 5rem;  
+    color: black;
+    text-align: center;
+  }
+
+  .outer{
+    border: 1px solid rgb(121, 121, 121);
+  }
+  
+  .inner{
+    border: 1px solid rgb(141, 141, 141);
+  }
+
+  #number{
+    color: rgb(58, 58, 58);
   }
 
   /* footer */

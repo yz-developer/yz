@@ -1,0 +1,93 @@
+/* 
+    --> Animations
+*/
+@keyframes roll {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  20% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+  27% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(15deg);
+  }
+}
+
+/* skills animation */
+@keyframes html-skill-show {
+  100%{
+    width: 95%;
+  }
+  
+}
+
+@keyframes css-skill-show {
+  100%{
+    width: 80%;
+  }
+  
+}
+
+@keyframes js-skill-show {
+  100%{
+    width: 78%;
+  }
+  
+}
+
+@keyframes boot-skill-show {
+  100%{
+    width: 86%;
+  }
+  
+}
+
+/* professional skill */
+@keyframes node-skill-show {
+  100%{
+    stroke-dashoffset: 148.4px ;
+  }
+}
+@keyframes express-skill-show {
+  100%{
+    stroke-dashoffset: 63.6px ;
+  }
+}
+@keyframes nextjs-skill-show {
+  100%{
+    stroke-dashoffset: 118.72px ;
+  }
+}
+@keyframes mongodb-skill-show {
+  100%{
+    stroke-dashoffset: 84.8px ;
+  }
+}
