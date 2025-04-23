@@ -21,6 +21,35 @@ let nodejsPercent = document.getElementById("node-number");
 let expressPercent = document.getElementById("express-number");
 let nextjsPercent = document.getElementById("nextjs-number");
 let mongoPercent = document.getElementById("mongo-number");
+const backToTopIconWhite = document.querySelector(".back-to-top-white");
+const backToTopIconBlack = document.querySelector(".back-to-top-black");
+
+if (window.innerWidth < 992) {
+  // Back to top
+  // white
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 300 ||
+      document.documentElement.scrollTop > 300
+    ) {
+      backToTopIconWhite.classList.add("active");
+    } else {
+      backToTopIconWhite.classList.remove("active");
+    }
+  };
+} else {
+  // black
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 300 ||
+      document.documentElement.scrollTop > 300
+    ) {
+      backToTopIconBlack.classList.add("active");
+    } else {
+      backToTopIconBlack.classList.remove("active");
+    }
+  };
+}
 
 // show menu
 menuIcon.addEventListener("click", () => {

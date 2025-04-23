@@ -1,7 +1,12 @@
 @media screen and (max-width: 575.98px) {
+  * {
+    cursor: default !important;
+  }
+
   .nav {
     position: relative;
   }
+
   .cover {
     background-color: black;
     z-index: 1;
