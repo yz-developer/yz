@@ -103,6 +103,7 @@ body {
   align-items: flex-end;
   gap: 0.5rem;
   z-index: 2;
+  cursor: pointer;
 }
 
 .top-line {
@@ -621,6 +622,7 @@ body {
   z-index: 100;
   display: none;
   cursor: pointer;
+  animation: move-back-to-top-arrow 1s linear infinite alternate-reverse;
 }
 
 .back-to-top-white.active {
@@ -636,6 +638,8 @@ body {
   z-index: 100;
   display: none;
   cursor: pointer;
+  animation: move-back-to-top-arrow 1s linear infinite alternate-reverse;
+
 }
 
 .back-to-top-black.active {

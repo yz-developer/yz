@@ -15,6 +15,15 @@
   
 }
 
+/* Move back to top arrow */
+@keyframes move-back-to-top-arrow {
+0%{
+  bottom: 6rem;
+}100%{
+  bottom: 5rem;
+}  
+}
+
 /* Home animation */
 @keyframes roll {
   0% {
